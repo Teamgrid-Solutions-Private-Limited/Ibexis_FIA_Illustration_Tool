@@ -144,7 +144,7 @@ h1{
 form{
   margin-bottom: 50px;
 }
-button[type="button"]{
+/* button[type="button"]{
   border: 2px solid #369f49;
   color: #369f49;
   border-radius: 100px;
@@ -155,7 +155,7 @@ button[type="button"]{
   background: transparent;
   position: relative;
   overflow: hidden;
-}
+} */
 .col-form-label {
   padding-left: 25px;
   color: #233671;
@@ -168,7 +168,6 @@ button[type="button"]{
 }
 button:before{
   content: "";
-  
   transition: 0.3s ease-in-out all;
   background: #369f49;
   width: 100%;
@@ -178,7 +177,7 @@ button:before{
   bottom: 0;
   z-index: -1;
 }
-button[type="button"]:hover{
+/* button[type="button"]:hover{
   background: transparent;
   border: 2px solid #369f49;
   color: #fff;
@@ -187,7 +186,7 @@ button[type="button"]:hover{
 button[type="button"]:hover::before{
   transform: scaleY(1);
   height: 100%;
-}
+} */
 .alert-primary, .alert-secondary {
   background-color: rgba(227, 234, 240, 0.75);
   border: 1px solid hsla(195, 99%, 49%, 0.1);
@@ -266,7 +265,7 @@ input {
   font-family: "franklin-gothic-urw", sans-serif;
 }
 .footer-right-border{
-  border-top: 1px solid #5b74a4;;
+  border-top: 1px solid #5b74a4;
   padding-top: 20px;
   margin-top: 15px;
 }

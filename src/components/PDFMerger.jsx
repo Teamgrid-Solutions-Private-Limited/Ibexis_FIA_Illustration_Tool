@@ -44,11 +44,9 @@ const PdfMerger = () => {
  
       // Serialize the merged PDF document to bytes
       const mergedPdfBytes = await mergedPdf.save();
- 
       // Create a Blob from the bytes and create a URL for the Blob
       const blob = new Blob([mergedPdfBytes], { type: 'application/pdf' });
       const url = URL.createObjectURL(blob);
- 
       // Open the PDF in the same tab
       window.location.href = url;
     } catch (error) {
